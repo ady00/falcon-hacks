@@ -35,8 +35,10 @@ export const Square = (props: props) => {
       <Divider color="bg-slate-400" />
       <p className="font-mono text-lg text-blue-100 ps">
         With dozens of high-schoolers attending across the Bay, FalconHacks is 
-        a stellar way to introduce budding coders to the world of hackathons. Geared
-        towards beginners and veteran programmers alike, FalconHacks is inclusive for
+        a stellar way to introduce budding coders to the world of hackathons. FalconHacks 
+        is a 24-hour event between 12/10 and 12/11, where students will be able to design and 
+        create their own projects. We will be providing workshops, mentors, and prizes during the event.
+        Geared towards beginners and veteran programmers alike, FalconHacks is inclusive for
         anyone who is willing to code and make the next big thing. With free attendance and 
         acess to a plethora of resources and connections, FalconHacks is the premier hackathon for 
         Bay Area high schoolers. Register by signing up through {" "}
