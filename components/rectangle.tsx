@@ -43,6 +43,8 @@ export const Square = (props: props) => {
         <a href="https://forms.gle/kL6RtitsbidZ7hkMA" className="text-blue-400 italic">
           this form
         </a>{" "} today!
+        <br></br>
+        <br></br>
 
         FalconHacks is run by the Foothill High Computer Science Club, a student-run organization.
       </p>
