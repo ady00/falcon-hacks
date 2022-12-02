@@ -40,7 +40,7 @@ export const Square = (props: props) => {
         anyone who is willing to code and make the next big thing. With free attendance and 
         acess to a plethora of resources and connections, FalconHacks is the premier hackathon for 
         Bay Area high schoolers. Register by signing up through {" "}
-        <a href="https://forms.gle/WJJM3Nm7o2AZT1ys9" className="text-blue-400 italic">
+        <a href="https://forms.gle/kL6RtitsbidZ7hkMA" className="text-blue-400 italic">
           this form
         </a>{" "} today!
       </p>
