@@ -76,7 +76,7 @@ export default function DotMatrix() {
         <div className="p-1 font-mono text-lg text-blue-100"> </div>
 
         <div className="px-1 py-4 font-mono text-lg text-blue-100">
-          | <Link text="Home" href="/" blank={false} /> |{" "}
+          | <Link text="Discord" href="https://discord.gg/jwkJy7J9" blank={false} /> |{" "}
           <Link
             href="https://forms.gle/kL6RtitsbidZ7hkMA"
             text="Register"
