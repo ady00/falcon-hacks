@@ -34,9 +34,7 @@ export const Square = (props: props) => {
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />
       <p className="font-mono text-lg text-blue-100 ps">
-        With dozens of high-schoolers attending across the Bay, FalconHacks is 
-        a stellar way to introduce budding coders to the world of hackathons. FalconHacks 
-        is a 24-hour event between 12/10 and 12/11, where students will be able to design and 
+        FalconHacks is a 24-hour event between 12/10 and 12/11, where students will be able to design and 
         create their own projects. We will be providing workshops, mentors, and prizes during the event.
         Geared towards beginners and veteran programmers alike, FalconHacks is inclusive for
         anyone who is willing to code and make the next big thing. With free attendance and 
@@ -45,6 +43,8 @@ export const Square = (props: props) => {
         <a href="https://forms.gle/kL6RtitsbidZ7hkMA" className="text-blue-400 italic">
           this form
         </a>{" "} today!
+
+        FalconHacks is run by the Foothill High Computer Science Club, a student-run organization.
       </p>
     </div>
   );
