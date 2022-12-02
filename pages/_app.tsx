@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="h-full min-h-screen" id="parent">
       <Head>
-        <title>Foothill High School CS Club</title>
+        <title>Falcon Hacks</title>
       </Head>
       <Component {...pageProps} />
     </div>
