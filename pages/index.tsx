@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { Calendar } from "../components/countdown";
 import DotMatrix from "../components/homePage";
-import Officers from "../components/prizes";
+import Prizes from "../components/prizes";
 import { Square } from "../components/rectangle";
 import { Schedule } from "../components/schedulehacks";
 import { Faq } from "../components/faq";
@@ -18,17 +18,14 @@ const Home: NextPage = () => {
       <div className="py-2"></div>
 
       <div>
-        <Square span="col-span-2" />
+        <Square span="col-span-1" />
         <div className="py-2"></div>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
         <Schedule />
-        <Officers />
+        <Prizes />
         <Calendar />
-      </div>
-      <div className="py-4">
-        <Faq span="col-span-2" />
-        <div className="py-2"></div>
+        <Faq span="col-span-3" />
       </div>
     </div>
   );

@@ -32,11 +32,11 @@ export const Faq = (props: props) => {
 
   return (
     <div
-      className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2 box`}
+      className={`w-full border-gray-300 border-4 rounded-lg sm:col-span-2 md:col-span-3 font-dot text-white p-2 box col-span-1 lg:col-span-4`}
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />
-      <p className="font-mono text-lg text-blue-100 ps">
+      <div className="font-mono text-lg text-blue-100 ps">
         <p className="italic text-blue-300">
           What skill level do you have to be to participate?
         </p>
@@ -66,7 +66,7 @@ export const Faq = (props: props) => {
             blank={false}
           />
         </p>
-      </p>
+      </div>
     </div>
   );
 };
