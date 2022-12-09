@@ -4,34 +4,31 @@ import { Divider } from "./divider";
 
 export default function Officers() {
   return (
-    <div className="text-white p-2 rounded-lg w-full col-span-2 h-full  border-gray-300 border-4 box">
-      <h1 className="text-3xl font-dot">Officers</h1>
+    <div className=" text-white p-2 rounded-lg w-full lg:col-span-4 h-full  border-gray-300 border-4 box md:col-span-3 col-span-1">
+      <h1 className="text-3xl font-dot">Judges</h1>
 
       <Divider color="bg-slate-600" />
-      <div
-        className="grid grid-cols-2 gap-4 sm:grid-cols-4 text-blue-100 ps"
-        style={{ animationDelay: "0.25s", opacity: 0 }}
-      >
-        <Avatar
-          name={"Arnav"}
-          desc="President"
-          picture="https://avatars.dicebear.com/api/initials/AGr.svg"
-        />
-        <Avatar
-          name={"Keerthi"}
-          desc="Vice President"
-          picture="https://avatars.dicebear.com/api/initials/KC.svg"
-        />
-        <Avatar
-          name={"Adi"}
-          desc="Treasurer"
-          picture="https://avatars.dicebear.com/api/initials/AVsss.svg"
-        />
-        <Avatar
-          name={"Arav"}
-          desc="Secretary"
-          picture="https://avatars.dicebear.com/api/initials/AAsss.svg"
-        />
+      <div className="w-full grid items-center ">
+        <div
+          className="grid grid-cols-3 gap-4 text-blue-100 ps"
+          style={{ animationDelay: "0.25s", opacity: 0 }}
+        >
+          <Avatar
+            name={"Arnav"}
+            desc="President of CS Club"
+            picture="https://avatars.dicebear.com/api/initials/AGr.svg"
+          />
+          <Avatar
+            name={"Sean"}
+            desc="UCLA '26"
+            picture="https://avatars.dicebear.com/api/initials/ST.svg"
+          />
+          <Avatar
+            name={"Lehuy"}
+            desc="Founder of Studykit.app"
+            picture="https://avatars.dicebear.com/api/initials/LH.svg"
+          />
+        </div>
       </div>
     </div>
   );

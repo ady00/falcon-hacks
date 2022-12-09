@@ -6,6 +6,8 @@ import { Square } from "../components/rectangle";
 import { Schedule } from "../components/schedulehacks";
 import { Faq } from "../components/faq";
 import { useEffect } from "react";
+import { Sponsors } from "../components/Sponsors";
+import Officers from "../components/Officers";
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -26,6 +28,8 @@ const Home: NextPage = () => {
         <Prizes />
         <Calendar />
         <Faq span="col-span-3" />
+        <Sponsors />
+        <Officers />
       </div>
     </div>
   );

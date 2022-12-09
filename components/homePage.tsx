@@ -58,28 +58,41 @@ export default function DotMatrix() {
         <div className="py-10"></div>
         <div className="py-10"></div>
 
-        <div className="hidden-lg hidden-md hidden-xs text-8xl px-1">
-          Falcon Hacks.
+        <div className="hidden-lg hidden-md hidden-xs md:text-8xl px-1 sm:text-7xl text-5xl">
+          Falconhacks.
         </div>
 
-        <div className="text-6xl text-blue-100 px-1 py-5">
-          A fun, virtual 24-hour hackathon.
+        <div className="text-3xl sm:text-5xl text-blue-100 px-1 py-5">
+          A fun, virtual 24-hour hackathon by{" "}
+          <Link blank href="https://fhscs.tech" text="FHS CS Club" />.
         </div>
 
         <div className="px-1 font-mono text-lg text-blue-100">
           <b>
             Inspiring and fostering creativity amongst the developers of
-            tomorrow.
+            tomorrow by{" "}
           </b>
         </div>
 
         <div className="p-1 font-mono text-lg text-blue-100"> </div>
 
         <div className="px-1 py-4 font-mono text-lg text-blue-100">
-          | <Link text="Discord" href="https://discord.gg/jwkJy7J9" blank={false} /> |{" "}
+          |{" "}
+          <Link
+            text="Discord"
+            href="https://discord.gg/jwkJy7J9"
+            blank={false}
+          />{" "}
+          |{" "}
           <Link
             href="https://forms.gle/kL6RtitsbidZ7hkMA"
             text="Register"
+            blank={true}
+          />{" "}
+          |{" "}
+          <Link
+            href="https://falconhacks-2022.devpost.com/"
+            text="Devpost"
             blank={true}
           />{" "}
           |

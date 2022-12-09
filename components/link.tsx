@@ -1,9 +1,9 @@
 import NextLink from "next/link";
 interface props {
   href: string;
-  text: string;
-  blank: boolean
-  anim?:boolean
+  text: string | JSX.Element;
+  blank: boolean;
+  anim?: boolean;
 }
 
 export const Link = (props: props) => {
