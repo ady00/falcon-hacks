@@ -18,11 +18,13 @@ export const Schedule = () => {
             <p>9.00 AM SAT</p>
             <p>Opening Ceremony</p>
             <p>11.00 AM SAT</p>
-            <p>Git/Github tutorial session by William P.</p>
+            <p>Git/Github tutorial session by William</p>
             <p>2.30 PM SAT</p>
             <p>Game Development Workshop by Studio Heart Engine</p>
             <p>5.00 PM SAT</p>
             <p>Web Development Workshop by Girls Who Code Club</p>
+            <p>7.00 PM SAT</p>
+            <p>App Development Workshop by FHS App Dev Club</p>
             <p>9.00 PM SAT</p>
             <p>Machine Learning Workshop by Claire</p>
             <p>11.00 AM SUN</p>

@@ -29,20 +29,23 @@ export const Sponsors = () => {
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />
-      <Link
-        text={
-          <img
-            src="./Frame_18logo.png"
-            className="hover:scale-110 transition-all ease-in-out 2s"
-          />
-        }
-        href="https://studykit.app"
-        blank
-      />
-      <div className="font-mono">
-        Thanks to <Link text="Studykit.app" blank href="https://studykit.app" />{" "}
-        for sponsoring our hackathon. Studykit provides premium and effective
-        study tools for free. Go check them out if you are interested.
+      <div className="w-full grid place-content-center">
+        <Link
+          text={
+            <img
+              src="./Group_2logo.png"
+              className="hover:scale-110 transition-all ease-in-out 2s"
+            />
+          }
+          href="https://studykit.app"
+          blank
+        />
+        <div className="font-mono">
+          Thanks to{" "}
+          <Link text="Studykit.app" blank href="https://studykit.app" /> for
+          sponsoring our hackathon. Studykit provides premium and effective
+          study tools for free. Go check them out if you are interested.
+        </div>
       </div>
     </div>
   );
