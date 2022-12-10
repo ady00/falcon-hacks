@@ -28,6 +28,11 @@ export default function Officers() {
             desc="Founder of Studykit.app"
             picture="https://avatars.dicebear.com/api/initials/LH.svg"
           />
+          <Avatar
+            name="William"
+            desc="President of Studio Heart Engine"
+            picture="https://avatars.dicebear.com/api/initials/WP.svg"
+          />
         </div>
       </div>
     </div>

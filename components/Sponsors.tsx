@@ -29,7 +29,7 @@ export const Sponsors = () => {
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />
-      <div className="w-full grid place-content-center">
+      <div className="w-full flex items-center justify-center flex-col">
         <Link
           text={
             <img
