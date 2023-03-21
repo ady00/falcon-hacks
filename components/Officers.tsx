@@ -33,6 +33,11 @@ export default function Officers() {
             desc="President of Studio Heart Engine"
             picture="https://avatars.dicebear.com/api/initials/WP.svg"
           />
+          <Avatar
+            name="Advay"
+            desc="Officer @ CS Club"
+            picture="https://avatars.dicebear.com/api/initials/AB.svg"
+          />
         </div>
       </div>
     </div>
